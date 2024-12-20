@@ -25,6 +25,11 @@ First clone the repo:
 git clone https://github.com/frappe/frappe_docker
 cd frappe_docker
 ```
+docker compose v1
+
+Then run: `docker-compose -f pwd.yml up -d`
+
+docker compose v2
 
 Then run: `docker compose -f pwd.yml up -d`
 
