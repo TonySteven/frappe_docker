@@ -33,6 +33,17 @@ docker compose v2
 
 Then run: `docker compose -f pwd.yml up -d`
 
+down/stop
+
+```shell
+
+# down：不仅会停止容器，还会删除创建的网络和卷，恢复到启动之前的状态。
+docker-compose -f pwd.yml down
+
+# 	•	stop：仅会停止容器，但容器、网络和卷不会被删除，下次启动时容器状态会被保留。
+docker-compose -f pwd.yml stop
+```
+
 ### To run on ARM64 architecture follow this instructions
 
 After cloning the repo run this command to build multi-architecture images specifically for ARM64.
