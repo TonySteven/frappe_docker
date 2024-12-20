@@ -39,7 +39,7 @@ and then
 - add `platform: linux/arm64` to all services in the pwd.yaml
 - replace the current specified versions of erpnext image on `pwd.yml` with `:latest`
 
-Then run: `docker compose -f pwd.yml up -d`
+Then run: `docker compose -f pwd-arm.yml up -d`
 
 ## Final steps
 
